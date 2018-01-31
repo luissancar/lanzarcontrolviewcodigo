@@ -16,13 +16,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func salta(_ sender: Any) {
-        let viewController = self.storyboard!.instantiateViewController(withIdentifier: "va") as! ViewController
+        let viewController = self.storyboard!.instantiateViewController(withIdentifier: "va") 
         
         self.present(viewController,animated: true, completion:nil)
         
     }
     @IBAction func boton2(_ sender: Any) {
-        let viewController = self.storyboard!.instantiateViewController(withIdentifier: "vb") as! ViewController
+        let viewController = self.storyboard!.instantiateViewController(withIdentifier: "vb") 
         
         self.present(viewController,animated: true, completion:nil)
     }
